@@ -1,0 +1,87 @@
+.encabezado{
+	width: 100%;
+}
+.encabezado .empresa,.encabezado .titulo,.encabezado .fecha{
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #c2c2c2;
+	cursor: pointer;
+}
+.cuerpo{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #c2c2c2;
+}
+.cuerpo .sepa{
+	width: 3px;
+	display: flex;
+	margin: 0px 20px 0px 20px;
+	background: #c2c2c2c2;
+}
+.cuerpo .content_activos,.cuerpo .content_pasivos,.cuerpo .content_patrimonio_neto,.cuerpo .content_calculo{
+	width: 100%;
+}
+.cuerpo .content_calculo,.cuerpo .content_patrimonio_neto{
+	margin-top: 30px;
+}
+.cuerpo h2{
+	width: 100%;
+	font-size: 18px;
+}
+.cuerpo .monto{
+	font-size: 16px;
+	width: 20%;
+	display: flex;
+	margin-left: 10px;
+}
+.cuerpo .btn{
+	width: 100%;
+	font-size: 16px;
+}
+.cuerpo .btn:hover{
+	color: green;
+	cursor: pointer;
+}
+.cuerpo #activos_corrientes{
+	color: #000000;
+}
+.cuerpo .tr{
+	margin: 20px;
+	display: flex;
+}
+.cuerpo .concepto{
+	width: 100%;
+	font-size: 16px;
+	margin-left: 20px;
+}
+.cuerpo .btn_concepto{
+	margin: 10px;
+	display: flex;
+	box-shadow: 0px 1px #c2c2c2;
+	padding-bottom: 5px;
+}
+.cuerpo .btn_concepto:hover{
+	color: blue;
+	cursor: pointer;
+}
+.content_form{
+	width: 500px;
+	max-height: 220px;
+	background: #ffffff;
+	padding: 20px;
+	border-radius: 0px 0px 10px 10px;
+	margin-top: 40px;
+	-webkit-box-shadow: 1px 1px 3px 0px #000000;
+	-moz-box-shadow: 1px 1px 3px 0px #000000;
+	box-shadow: 1px 1px 3px 0px #000000;
+}
+.content_form #title,.content_form_update #title{
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.cuerpo .formulas div{
+	margin: 7px;
+	font-size: 18px;
+}

@@ -1,0 +1,22 @@
+.content_options a{
+	text-decoration: none;
+	background: none;
+	padding: 10px;
+	margin: 20px;
+	display: inline-block;
+	border-radius: 5px;
+	border: 1px solid #007a0b;
+	transition: 0.2s all ease;
+}
+.content_options a:hover{
+	transform: scale(1.1);
+}
+.content_options img{
+	width: 150px;
+	margin-bottom: 5px;
+}
+.content_options li{
+	list-style: none;
+	text-align: center;
+	color: #000000;
+}
